@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="https://cdn5.f-cdn.com/contestentries/1874900/42250569/5ffb6c4721149_thumb900.jpg" alt="">
+        <div class="delivery-details">
+            <span>Delivery in 13 minutes</span>
+            <span>Noida, Uttar Pradesh, India</span>
+        </div>
+        <div class="search-tags">
+            <input type="text" class="searchInput" placeholder="Search.." id="searchInput">
+            <button class="searchBtn" id="searchBtn">Search</button>
+        </div>
+        <button class="cart-button" id="cartButton"><i class="fa-solid fa-cart-shopping"></i>My Cart (0)</button>
+    </header>
+
+    <aside class="sidebar">
+        <h3>Categories</h3>
+        <ul>
+            <li><button class="category-btn" id="fruits" data-category="fruit">Fruits</button></li>
+            <li><button class="category-btn" id="grocery" data-category="grocery">Grocery</button></li>
+            <li><button class="category-btn" id="vegetables" data-category="vegetable">Vegetables</button></li>
+            <li><button class="category-btn" id="dairy" data-category="dairy">Dairy Products</button></li>
+            <li><button class="category-btn" id="essential" data-category="essential">Essentials</button></li>
+        </ul>
+    </aside>
+   
+    <div class="productList" id="productList"></div>
+
+    <div class="cart-box" id="cartBox" style="display: none;">
+        <h2>Cart Items</h2>
+        <div class="cart-items" id="cartItems"></div>
+        <button class="close-cart" id="closeCartButton">Close</button>
+    </div>
+
+    <script type="module" src="main.js"></script> 
+</body>
+</html>
+
