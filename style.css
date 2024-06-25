@@ -1,5 +1,5 @@
 body{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header{
     display: flex;
@@ -7,7 +7,7 @@ header{
     align-items: center;
     height: 15vh;
     width: 100vw;
-    background-color:rgb(245, 247, 247);
+    background-color:rgb(243, 242, 242);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     z-index: 1000;
     position: fixed;
